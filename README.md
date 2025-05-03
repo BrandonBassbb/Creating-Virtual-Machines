@@ -4,8 +4,9 @@
 <p align="center">
 </p>
 
-<h1>Creating Two VMs on the Same Virtual Network. (Azure)</h1>
-This tutorial outlines creating a resource group and two VMs on the same virtual network.<br />
+<h1>Creating Two VMs on the Same Virtual Network (Azure)</h1>
+This tutorial outlines creating a resource group and two VMs on the same virtual network
+<br />
 
 
 - Microsoft Azure subscription (Virtual Machines/Computer)
@@ -35,7 +36,7 @@ Once we are in Azure, go up to the Azure Search bar that says, "Search resources
 </p>
 <h2> Creating a VM </h2>
 <p>
-From here, we will need to create our first Windows Virtual Machine! Back in the search bar, type "Virtual machines". After selecting VM, click Create. Running down the list of options here, make sure our subscription is the same one we used before. Under that is the Resource group, and we will want to select the one we created, "VM-Test". For name, let's name it VM-Windows-Test. !! MAKE SURE THE REGION IS SET TO THE ONE YOU HAD USED PREVIOUSLY. If it's not, we will run into some issues!! Going down to Image for this one, make sure you select Windows 10 Pro, version 22H2 - x64 Gen2. For size, you'll want something with at least 2 vCPUs and 8 GiB of memory, or else the device will run incredibly slow. For the Username and Password, set something you'll remember and write it down, as we will need it for later. I will use the username "labuser" and the password "Azurelab123!" Without the "". Make sure you select the checkbox for "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights" at the bottom. Your settings should look like this.
+From here, we will need to create our first Windows Virtual Machine! Back in the search bar, type "Virtual machines". After selecting VM, click Create. Running down the list of options here, ensure our subscription is the same one we used. Under that is the Resource group, and we will want to select the one we created, "VM-Test". For name, let's name it VM-Windows-Test. !! MAKE SURE THE REGION IS SET TO THE ONE YOU HAD USED PREVIOUSLY. If it's not, we will run into some issues !! Going down to Image for this one, select Windows 10 Pro, version 22H2 - x64 Gen2. For size, you'll want something with at least 2 vCPUs and 8 GiB of memory, or else the device will run incredibly slow. For the Username and Password, set something you'll remember and write it down, as we will need it for later. I will use the username "labuser" and the password "Azurelab123!" Without the "". Make sure you select the checkbox for "I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights" at the bottom. Your settings should look like this.
 
 ![image](https://github.com/user-attachments/assets/405dcb50-d3b7-46a2-a00e-f37ab29c73e3)
 ![image](https://github.com/user-attachments/assets/983b2ece-9748-45cf-9757-d29d0d906a85)
